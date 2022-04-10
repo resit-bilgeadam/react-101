@@ -1,6 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import React from "react";
 
+// React Componenti
 function App() {
   return (
     <div className="App">
@@ -22,4 +24,16 @@ function App() {
   );
 }
 
-export default App;
+/*
+React.createElement(
+  "div",
+  { className: "App" },
+  React.createElement("header", { className: "App-header" }, [
+    React.createElement("img"),
+    React.createElement("p", {}, "Edit "),
+    React.createElement("a"),
+  ])
+);
+*/
+
+export default App; // module.exports = App
